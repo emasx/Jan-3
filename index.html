@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotomatic</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            position: fixed;
+            z-index:100;
+            width: 100%;
+            border-bottom: 1px solid #c6c1c1;
+            background-color: white;
+        }
+
+        header .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.875rem;
+        }
+
+        .logo {
+            text-decoration: none;
+            color: #4a4a4a;
+            font-size: 1.5rem;
+        }
+
+        header nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav li {
+            padding-left: 3.5rem;
+        }
+
+        nav a {
+            line-height: 1.6;
+            font-size: 1rem;
+            color: #4a4a4a;
+            text-decoration: none;
+        }
+
+        .main-content {
+            position: relative;
+            top: 5.125rem;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        #sign-up-section {
+            background-color: crimson;
+            height: 43.5rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        #sign-up-cta {
+            position: relative;
+            top: 171px;
+            left: 10%;
+            padding: 0 5rem 2.5rem 5rem;
+            border: 1px solid #979797;
+            border-radius: 4px;
+            background-color: #9dc20b;
+        }
+
+        #sign-up-cta .content {
+            width: 25.625rem;
+            margin-top: 2rem;
+            font-family: sans-serif;
+            font-size: 1.25rem;
+            line-height: 1.4;
+            color: whitesmoke;
+            
+            border: 1px solid red;
+        }
+
+        #sign-up-cta h1 {
+            font-size: 2.5rem;
+        }
+        #sign-up-cta h2 {
+            font-size: 2rem;
+        }
+        #sign-up-cta .striking {
+            padding-bottom: .75rem;
+        }
+
+        #sign-up-cta .button {
+            margin-top: 1.625rem;
+            padding: 1.25rem 7.25rem;
+            background-color: #4a4a4a;
+            color: whitesmoke;
+            border-radius: 4px;
+        }
+
+        #features-section {
+            display: flex;
+            justify-content: space-between;
+            padding: 4rem 5%;
+            background-color: #f3f3f3;
+        }
+
+        .feature {
+            padding: 2rem;
+            margin: 0px 1.25rem;
+            background-color: white;
+        }
+        .feature .image-container {
+            width: 90%;
+            height: 65%;
+            margin: 0 auto;
+        }
+
+        
+        .image-container img {
+            display: block;
+            max-width: 100%;
+        }
+
+        .feature .content {
+            padding: 2.5rem 0;
+        }
+
+        .feature h2 {
+        padding-bottom: .5rem;
+        font-size: 2.25rem;
+        font-weight: bold;
+        color: #4a4a4a;
+        }
+
+        .feature h3 {
+        font-size: 1rem;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #4a4a4a;
+        }
+   
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="content">
+
+            <a href="index.html" class="logo">Fotomatic</a>
+
+            <nav class="desktop">
+                <ul>
+                    <li><a href="#">Product detail</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Join us</a></li>
+                </ul>
+            </nav>
+
+
+        </div>
+    </header>
+
+    <!--Main Content-->
+    <div class="main-content">
+
+        <div id="sign-up-section" class="banner">
+
+            <div id="sign-up-cta">
+
+                <div class="content center">
+
+                    <div class="header">
+                        <h2 class="cursive">Instant</h2>
+                        <h1 class="striking">FORMAT CAMERA</h1>
+                    </div>
+
+                    <div class="email">
+                        <span>Email us to request a demo and be in out waiting list for the February 2024 release!</span>
+                        <div class="button">Join the waiting list</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!--Features Section-->
+        <div id="features-section">
+
+            <div class="feature">
+
+                <div class="center">
+                    
+                    <div class="image-container">
+                        <img src="feature-1.png">
+                    </div>
+                
+
+                    <div class="content">
+                        <h2>Advanced, automatic, instant</h2>
+                        <h3>Shutter speed, apperture and flash output adjust automatically</h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="feature">
+
+                <div class="center">
+
+                    <div class="image-container">
+                        <img src="feature-2.png">
+                    </div>
+
+                    <div class="content">
+                        <h2>Beautifully crafted inside-out</h2>
+                        <h3>From the paint outside to the tiny screw inside, Fotomatic is crafted with love and 20-year of expertise</h3>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+</body>
+</html>
